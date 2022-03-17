@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px 20px 20px;
+}
+
+.navbar > a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.navbar > div {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(36, 6, 6);
+    text-transform: uppercase;
+}
+
+.navbar > div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar > h4 {
+    color: cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}

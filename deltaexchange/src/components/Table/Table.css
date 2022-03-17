@@ -1,0 +1,78 @@
+.table-container {
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.title {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid rgb(138, 127, 127);
+}
+
+.title h1{
+    margin: 20px 30px 10px 10px;
+}
+
+.title button {
+    margin-top: 28px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.title button:hover {
+    background-color: rgb(241, 203, 203);
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 0px 0px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    min-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #f3e7e7;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.delete {
+    font-weight: bold;
+    color: #064e4e;
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: black;
+    text-decoration: underline;
+}
